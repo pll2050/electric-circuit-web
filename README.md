@@ -6,6 +6,58 @@
 
 Eplan 수준의 전기회로 설계가 가능하고 설계 시 AI 기반의 오류 검출 및 수정 제안을 제공하는 웹 애플리케이션입니다.
 
+## 프로젝트 구조 (서브모듈 방식)
+
+이 프로젝트는 다음과 같은 구조로 구성되어 있습니다:
+
+- **메인 저장소**: 프로젝트 전체 관리 및 문서
+- **클라이언트 서브모듈**: Nuxt.js + Vue.js + TypeScript 프론트엔드
+- **서버 서브모듈**: Go + Gin 백엔드
+
+### 서브모듈 설정
+
+#### 초기 클론
+
+```bash
+# 메인 저장소 클론 (서브모듈 포함)
+git clone --recursive [main-repo-url]
+
+# 또는 기본 클론 후 서브모듈 초기화
+git clone [main-repo-url]
+cd electric_circuit_web
+git submodule init
+git submodule update
+```
+
+#### 서브모듈 업데이트
+
+```bash
+# 모든 서브모듈을 최신 커밋으로 업데이트
+git submodule update --remote
+
+# 특정 서브모듈만 업데이트
+git submodule update --remote client
+git submodule update --remote server
+```
+
+#### 서브모듈에서 작업하기
+
+```bash
+# 클라이언트 폴더로 이동하여 작업
+cd client
+git checkout main  # 또는 작업할 브랜치
+# 작업 수행 후
+git add .
+git commit -m "클라이언트 변경사항"
+git push origin main
+
+# 메인 저장소로 돌아가서 서브모듈 참조 업데이트
+cd ..
+git add client
+git commit -m "클라이언트 서브모듈 업데이트"
+git push
+```
+
 ## 기술 스택
 
 ### 프론트엔드

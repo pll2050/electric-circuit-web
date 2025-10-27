@@ -1,3 +1,9 @@
-[submodule "client"]
-	path = client
-	url = ./client_repo
+[submodule "client"][submodule "client"]
+
+	path = client	path = client
+
+	url = d:/Projects/business/electric_circuit_repos/client.git	url = ./client_repo
+
+[submodule "server"]
+	path = server
+	url = d:/Projects/business/electric_circuit_repos/server.git
