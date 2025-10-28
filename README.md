@@ -64,7 +64,7 @@ git push
 - **Nuxt 3** - Vue.js 기반 풀스택 프레임워크
 - **TypeScript** - 타입 안정성
 - **Tailwind CSS** - 유틸리티 우선 CSS 프레임워크
-- **JointJS** - 인터랙티브 다이어그램 및 회로도 구현
+- **@joint/core** - 인터랙티브 다이어그램 및 회로도 구현
 - **Babylon.js** - 3D 그래픽 렌더링 및 판넬 보드 시각화
 - **Pinia** - 상태 관리
 

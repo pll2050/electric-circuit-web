@@ -9,7 +9,7 @@
 - **주요 기능:**
     - 배전반 설계를 위한 전기회로도 작성 도구 제공
     - 4:3 및 16:9 도면 레이아웃 지원
-    - JointJS를 활용한 인터랙티브 회로도 캔버스 구현
+    - @joint/core를 활용한 인터랙티브 회로도 캔버스 구현
     - 캔버스는 확대/축소 기능 제공
     - 회로 구성 요소(저항, 전원, 스위치 등) 드래그 앤 드롭 인터페이스
     - 구성 요소 간 연결 및 회로 구성
@@ -41,7 +41,7 @@
 
 ## 2. 기술 스택
 
-- **프론트엔드:** Nuxt, TypeScript, Vite, JointJS, Babylon.js
+- **프론트엔드:** Nuxt, TypeScript, Vite, @joint/core, Babylon.js
 - **백엔드:** Go (Golang)
 - **스타일링:** CSS Modules, Tailwind CSS
 - **데이터베이스:** PostgreSQL
@@ -127,7 +127,7 @@
 
 ## 10. 주요 라이브러리
 
-- **JointJS:** 인터랙티브 다이어그램 및 회로도 구현
+- **@joint/core:** 인터랙티브 다이어그램 및 회로도 구현
 - **Babylon.js:** 3D 그래픽 렌더링 및 판넬 보드 3D 시각화
 - **Nuxt 3:** Vue.js 기반 풀스택 프레임워크
 - **Tailwind CSS:** 유틸리티 우선 CSS 프레임워크
