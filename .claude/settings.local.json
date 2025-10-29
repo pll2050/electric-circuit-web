@@ -8,7 +8,8 @@
       "Bash(go mod tidy:*)",
       "Bash(git add:*)",
       "Bash(git commit -m \"$(cat <<''EOF''\nfeat: Implement KitchenSink-style Navigator with viewport tracking\n\n- Add useNavigator composable based on KitchenSink NavigatorService\n- Create NavigatorElementView with custom path rendering\n- Implement real-time viewport tracking for pan, zoom, and scroll\n- Add Paper resize event listener for viewport updates\n- Fix viewport positioning with absolute CSS\n- Adjust Navigator size dynamically to container\n- Update A4 template XML with improved title block layout\n- Fix title block text alignment with textVerticalAnchor\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(npm run dev:*)"
     ],
     "deny": [],
     "ask": []
