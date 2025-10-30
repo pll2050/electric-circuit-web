@@ -16,7 +16,11 @@
       "Bash(timeout 3 echo:*)",
       "Bash(netstat:*)",
       "Bash(findstr:*)",
-      "Bash(taskkill:*)"
+      "Bash(taskkill:*)",
+      "Bash(go mod verify:*)",
+      "Bash(go build:*)",
+      "Bash(go test:*)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []
