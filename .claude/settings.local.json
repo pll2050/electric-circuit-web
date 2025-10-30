@@ -20,7 +20,8 @@
       "Bash(go mod verify:*)",
       "Bash(go build:*)",
       "Bash(go test:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(timeout 15 bash:*)"
     ],
     "deny": [],
     "ask": []
