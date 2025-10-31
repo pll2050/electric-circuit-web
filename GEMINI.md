@@ -9,7 +9,7 @@
 - **주요 기능:**
     - 배전반 설계를 위한 전기회로도 작성 도구 제공
     - 4:3 및 16:9 도면 레이아웃 지원
-    - @joint/core를 활용한 인터랙티브 회로도 캔버스 구현
+    - @joint/plus를 활용한 인터랙티브 회로도 캔버스 구현
     - 캔버스는 확대/축소 기능 제공
     - 회로 구성 요소(저항, 전원, 스위치 등) 드래그 앤 드롭 인터페이스
     - 구성 요소 간 연결 및 회로 구성
@@ -40,9 +40,12 @@
 
 ## 2. 기술 스택
 
-- **프론트엔드:** Nuxt, TypeScript, Vite, @joint/core
+- **프론트엔드:** Nuxt, TypeScript, Vite, @joint/plus, Babylon.js
 - **백엔드:** Go (Golang)
 - **스타일링:** CSS Modules, Tailwind CSS
+- **데이터베이스:** PostgreSQL
+
+**중요:** @joint/core를 직접 사용하지 말고 항상 @joint/plus를 사용할 것. @joint/plus는 @joint/core를 내부적으로 포함하고 있습니다.
 
 ## 3. 주요 명령어
 
