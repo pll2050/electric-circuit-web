@@ -5,6 +5,3 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/pll2050/electric-circuit-web-server.git
-[submodule "electric-symbols"]
-	path = electric-symbols
-	url = https://github.com/sungkook-kang/electric-circuit-web-electric-symbols.git

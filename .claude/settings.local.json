@@ -21,7 +21,15 @@
       "Bash(go build:*)",
       "Bash(go test:*)",
       "Bash(curl:*)",
-      "Bash(timeout 15 bash:*)"
+      "Bash(timeout 15 bash:*)",
+      "Bash(git checkout:*)",
+      "Bash(git restore:*)",
+      "Bash(timeout 30 bash:*)",
+      "Bash(git init:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git push:*)",
+      "Bash(git submodule:*)",
+      "Bash(git clean:*)"
     ],
     "deny": [],
     "ask": []
