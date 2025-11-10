@@ -5,7 +5,4 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/pll2050/electric-circuit-web-server.git
-[submodule "server-dotnet"]
-	path = server-dotnet
-	url = https://github.com/pll2050/electric-circuit-web-server.git
 	branch = dotnet
