@@ -5,4 +5,3 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/pll2050/electric-circuit-web-server.git
-	branch = dotnet
