@@ -29,7 +29,12 @@
       "Bash(gh repo create:*)",
       "Bash(git push:*)",
       "Bash(git submodule:*)",
-      "Bash(git clean:*)"
+      "Bash(git clean:*)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet run)",
+      "Bash(timeout 5 echo:*)",
+      "Bash(dotnet ef migrations:*)",
+      "Bash(dotnet ef database update:*)"
     ],
     "deny": [],
     "ask": []
